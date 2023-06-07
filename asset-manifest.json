@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Star-Rating-System/static/css/main.c0b55c7b.css",
+    "main.js": "/Star-Rating-System/static/js/main.1039f705.js",
+    "index.html": "/Star-Rating-System/index.html",
+    "main.c0b55c7b.css.map": "/Star-Rating-System/static/css/main.c0b55c7b.css.map",
+    "main.1039f705.js.map": "/Star-Rating-System/static/js/main.1039f705.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0b55c7b.css",
+    "static/js/main.1039f705.js"
+  ]
+}
