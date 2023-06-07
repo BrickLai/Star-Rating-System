@@ -1,0 +1,77 @@
+@import "./reset.css";
+
+  body {
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+
+  main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+  
+  main .stars {
+    display: flex;
+  }
+  
+
+  main button {
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  main .open {
+    background-color: #3076e8;
+    color: #fff;
+    inset: auto 50px 50px auto;
+    position: fixed;
+  }
+  
+  main .open.hide {
+    display: none;
+  }
+  
+  main dialog {
+    background-color: #f2f4f6;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-content: center;
+    height: 300px;
+    margin: auto;
+    top: 35%;
+    width: 500px;
+  }
+  
+  main dialog::backdrop {
+    background-color: rgb(13 16 19 / 0.25);
+    backdrop-filter: blur(10px);
+  }
+  
+  main dialog .close {
+    background-color: #3076e8;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0px 0px 2px #000;
+  }
+
+  .rating-stars{
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  } 
+
+  .rating-stars .star.selected {
+    color: #ffd700;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
